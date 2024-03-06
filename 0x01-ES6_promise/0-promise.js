@@ -28,6 +28,4 @@ function getResponseFromAPI(endpoint) {
   });
 }
 
-// Export the function
 module.exports = getResponseFromAPI;
-
