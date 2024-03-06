@@ -19,5 +19,4 @@ function getFullResponseFromAPI(success) {
   });
 }
 
-// Export the function
 module.exports = getFullResponseFromAPI;
