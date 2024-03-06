@@ -1,22 +1,28 @@
 // handleResponseFromAPI.js
 
 /**
- * Handles the response from a Promise.
+ * Handle the response from a Promise.
  * @param {Promise} promise - The Promise to handle.
- * @returns {Promise} - A Promise that resolves with the specified response or rejects with an empty Error object.
+ * @returns {Promise} - A Promise that resolves or rejects based on the original Promise.
  */
 function handleResponseFromAPI(promise) {
   return promise
-    .then((response) => {
+    .then((resolvedValue) => {
+      // Log a message to the console on resolution
       console.log('Got a response from the API');
+      
+      // Return an object with status and body attributes on resolution
       return {
         status: 200,
         body: 'success',
       };
     })
     .catch((error) => {
+      // Log a message to the console on rejection
       console.error('Error from the API:', error.message);
-      return new Error(); // Return an empty Error object
+      
+      // Return an empty Error object on rejection
+      return new Error();
     });
 }
 
