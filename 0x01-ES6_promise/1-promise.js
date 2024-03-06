@@ -1,5 +1,3 @@
-// getFullResponseFromAPI.js
-
 /**
  * Simulates an API response based on success flag.
  * @param {boolean} success - Indicates whether the API request is successful.
