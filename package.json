@@ -1,0 +1,20 @@
+{
+  "name": "alx-frontend-javascript",
+  "version": "1.0.0",
+  "description": "my alx-frontend journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/mwahk3ymer/alx-frontend-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwahk3ymer/alx-frontend-javascript/issues"
+  },
+  "homepage": "https://github.com/mwahk3ymer/alx-frontend-javascript#readme"
+}
