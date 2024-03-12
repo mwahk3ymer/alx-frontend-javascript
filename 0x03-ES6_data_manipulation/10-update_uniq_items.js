@@ -1,4 +1,3 @@
-
 function updateUniqueItems(groceriesMap) {
   // Check if the argument is a Map
   if (!(groceriesMap instanceof Map)) {
